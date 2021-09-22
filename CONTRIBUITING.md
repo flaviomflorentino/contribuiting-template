@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="apollo-logo.png" width="30%" />
+    <img src="front-end.jpg" width="100%" />
 </p>
 
 # Contribuindo com o Apollo Design System

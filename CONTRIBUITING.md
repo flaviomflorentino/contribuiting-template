@@ -90,6 +90,12 @@ Pronto! Após a aprovação você já consegue utilizar o seu novo componente!
 ___
 
 # O que devemos considerar antes de criar um novo componente?
+
+Ao iniciar o processo de colaboração com a criação de um novo componente, se atente aos seguintes detalhes:
+
+- O componente possui documentação visual e casos de uso no figma? Caso negativo trazer a discussão para nós do squad que discutiremos com o time de design e retornaremos um plano de ação para os próximos passos com o componente.  
+
+
 ___
 
 # Críterios de aceite para criação de novos componentes

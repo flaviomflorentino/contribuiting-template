@@ -95,6 +95,15 @@ Ao iniciar o processo de colaboração com a criação de um novo componente, se
 
 - O componente possui documentação visual e casos de uso no figma? Caso negativo trazer a discussão para nós do squad que discutiremos com o time de design e retornaremos um plano de ação para os próximos passos com o componente.  
 
+Abaixo segue exemplo de componente documentado de forma completa no figma(casos de uso + ligh/dark mode):
+
+<img src="figma.png" width="100%" />
+
+___
+
+# Vamos falar de acessibilidade?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
 ___
 
@@ -105,6 +114,7 @@ Abaixo estão listados todos os processo necessários para que o componente seja
 - Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript)
 - Estilização do light e dark mode
 - Testes unitários com no mínimo 70% de cobertura
+- Acessibilidade
 - Documentação completa no storybook, contemplando todos as variações do componente
 - Documentação do uso de componentes filhos
 - Validação da equipe de design do ds
@@ -129,6 +139,12 @@ Após analisado o PR, retornaremos possíveis melhorias ou afins, caso tudo este
 
 Veja [aqui]() um exemplo de pr para novos componentes.
 
+## Nomenclatura de branchs
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+- `git checkout -b feat/design-system/modal-component`
+
 ## Criando commits
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
@@ -138,10 +154,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim l
 - `test:(design-system): added unit tests for modal component`
 
 - `docs:(design-system): included new props description`
-
-
-## Nomenclatura de branchs
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-- `git checkout -b feat/design-system/modal-component`

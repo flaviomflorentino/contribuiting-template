@@ -178,3 +178,9 @@ Abaixo veja exemplos de como commitar em colaborações no ds. Veja [aqui](https
 - `test:(design-system): added unit tests for modal component`;
 
 - `docs:(design-system): included new props description`;
+
+___
+
+# Reportando um problema/bug
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

@@ -38,3 +38,17 @@ Fique atento a nossas regras de contribuição, pois caso ignoradas sua solicita
 > Por favor, não use as issues para perguntas de suporte. Verifique se o canal `#frontenders` no `slack` pode ajudar com seu problema. Ou em casos mais críticos entre em contato com os desenvolvedores do ds.
 
 ___
+
+# Ao colaborar com criação de um novo componentes valide os critérios abaixo
+
+- Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript)
+- Testes unitários com no mínimo 70% de cobertura
+- Documentação completa no storybook, contemplando todos as variações do componente
+- Documentação do uso de componentes filhos
+- Validação da equipe de design do ds
+- Validação da equipe de front-end do ds
+
+Não se esqueça de rodar o lint após o desenvolvimento do novo componente. Tanto para estilos(stylelint) quanto para html e typescript(eslint).
+
+- `npm run lint:css`
+- `nx lint design-system`

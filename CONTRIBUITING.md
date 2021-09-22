@@ -83,13 +83,13 @@ Após finalizar o desenvolvimento do componente, é necessário fazer o build pa
 
 Depois de implementado, crie uma PR e solicite a aprovação do time do Design System Apollo.
  
-  
-   
 Pronto! Após a aprovação você já consegue utilizar o seu novo componente!
 
 ___
 
 # Críterios de aceite para criação de novos componentes
+
+Abaixo estão listados todos os processo necessários para que o componente seja considera estável e pronto:
 
 - Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript)
 - Testes unitários com no mínimo 70% de cobertura

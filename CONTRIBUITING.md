@@ -28,7 +28,7 @@ Exemplos de contribuições úteis que significam menos trabalho para você:
 Exemplos de contribuições úteis e que demandam maior tempo/complexidade e passam por um processo de revisão crítico:
 
 - Criação de novos componentes;
-- Implementação de novos funcionalidades;  
+- Implementação de novas funcionalidades;  
 - Remoção de componentes/funcionalidades em uso;
 
 Se você vir uma lacuna, mas não tiver tempo, experiência ou apenas precisar de ajuda com o ds, não hesite em iniciar uma discussão em nosso canal no slack `#apollo-design-system` ou abrir um issue.

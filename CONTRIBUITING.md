@@ -2,7 +2,7 @@
     <img src="front-end.jpg" width="100%" />
 </p>
 
-# Contribuindo com o Apollo Design System Web
+# Contribuindo com o Apollo Design System Web :1st_place_medal:
 
 ### Estamos aguardando sua colaboração! :hugs:
 

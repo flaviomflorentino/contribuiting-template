@@ -184,3 +184,5 @@ ___
 # Reportando um problema/bug
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+:warning: ***Por favor, não use as issues para perguntas de suporte. Verifique se o canal #frontenders no slack pode ajudar com seu problema. Ou em casos mais críticos entre em contato com os desenvolvedores do ds.***

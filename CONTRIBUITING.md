@@ -125,6 +125,10 @@ Abaixo estão listados todos os processo necessários para que o componente seja
 - `npm run lint:css`
 - `nx lint design-system`
 
+## Exemplo de documentação no storybook
+
+<img src="storybook.png" width="100%" />
+
 ___
 
 # Processo de revisão de código / Pull requests 
@@ -147,7 +151,7 @@ Para padronizar o repositório seguimos a convenção criada pelo Google que é 
 
 Basicamente possuímos duas abordagens:
 
-Passando a informação do id da task/story/bug do jira(`fix/design-system/jira-id/modal-component`):
+Passando a informação do id da task/story/bug do jira(`tipo/escopo/jira-id/tarefa`):
 
 - `fix/design-system/DSNEW-185/modal-component`
 

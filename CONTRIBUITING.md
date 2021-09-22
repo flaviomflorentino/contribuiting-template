@@ -105,7 +105,9 @@ ___
 
 # Vamos falar de acessibilidade?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Acessibilidade é um ponto muito importante do desenvolvimento, então é bom já iniciarmos o desenvolvimento levando em consideração as interações do usuário via leitores de tela e a semântica de nosso codigo.
+
+Cada componente possui pontos específicos a serem explorados, antes de iniciar o desenvolvimento faça um pareamento junto ao time de `front-end` ou `design` do ds.
 
 ___
 

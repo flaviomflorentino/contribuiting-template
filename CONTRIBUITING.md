@@ -43,19 +43,19 @@ ___
 
 Siga os passos abaixo para realizar a criação de um novo componente dentro de nosso padrão.
 
-### Começe clonando nosso repositório
+Começe clonando nosso repositório
 
 - `git clone https://github.com/PicPay/picpay-frontend.git`
 
-### Crie uma branch a partir da DEVELOP com o seguinte padrão para novos componentes:
+Crie uma branch a partir da DEVELOP com o seguinte padrão para novos componentes:
 
 - `git checkout -b feat/design-system/nome-do-componente`
 
-### Instale a extensão `NX Console` no `VSCode`. Selecione a opção Generate no NX Console e escolha a opção stencil - component.
+Instale a extensão `NX Console` no `VSCode`. Selecione a opção Generate no NX Console e escolha a opção stencil - component.
 
 <img src="stencil-component.png" />
 
-### Escolha um nome para o componente utilizando da notação dash-case. Por padrão os componentes do DS possuem o seu nome na frente, <b>apollo</b>:
+Escolha um nome para o componente utilizando da notação dash-case. Por padrão os componentes do DS possuem o seu nome na frente, <b>apollo</b>:
 
 <img src="generate.png" />
 
@@ -89,6 +89,9 @@ Pronto! Após a aprovação você já consegue utilizar o seu novo componente!
 
 ___
 
+# O que devemos considerar antes de criar um novo componente?
+___
+
 # Críterios de aceite para criação de novos componentes
 
 Abaixo estão listados todos os processo necessários para que o componente seja considera estável e pronto:
@@ -104,3 +107,15 @@ Abaixo estão listados todos os processo necessários para que o componente seja
 
 - `npm run lint:css`
 - `nx lint design-system`
+
+___
+
+# Processo de revisão de código
+
+A equipe de front-end do ds irá analisar seu PR em diversos aspectos, entre eles estão:
+
+- Organização das informações
+- Evidências visuais do componentes (prints/vídeos)
+- Pixel perfect (o componente esta identico ao figma?)
+
+Após analiado o PR, retornaremos possíveis melhor ou afins, caso tudo esteja de acordo com nossos padrões o PR será aceito e mergeado.

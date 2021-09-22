@@ -100,9 +100,10 @@ ___
 
 # Críterios de aceite para criação de novos componentes
 
-Abaixo estão listados todos os processo necessários para que o componente seja considera estável e pronto:
+Abaixo estão listados todos os processo necessários para que o componente seja consideradoja aqui estável e pronto:
 
 - Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript)
+- Estilização do light e dark mode
 - Testes unitários com no mínimo 70% de cobertura
 - Documentação completa no storybook, contemplando todos as variações do componente
 - Documentação do uso de componentes filhos
@@ -116,7 +117,7 @@ Abaixo estão listados todos os processo necessários para que o componente seja
 
 ___
 
-# Processo de revisão de código
+# Processo de revisão de código / Pull requests 
 
 A equipe de front-end do ds irá analisar seu PR em diversos aspectos, entre eles estão:
 
@@ -124,4 +125,23 @@ A equipe de front-end do ds irá analisar seu PR em diversos aspectos, entre ele
 - Evidências visuais do componentes (prints/vídeos)
 - Pixel perfect (o componente esta identico ao figma?)
 
-Após analiado o PR, retornaremos possíveis melhor ou afins, caso tudo esteja de acordo com nossos padrões o PR será aceito e mergeado.
+Após analisado o PR, retornaremos possíveis melhorias ou afins, caso tudo esteja de acordo com nossos padrões o PR será aceito e mergeado.
+
+Veja [aqui]() um exemplo de pr para novos componentes.
+
+## Criando commits
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+- `feat:(design-system): created modal component`
+
+- `test:(design-system): added unit tests for modal component`
+
+- `docs:(design-system): included new props description`
+
+
+## Nomenclatura de branchs
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+- `git checkout -b feat/design-system/modal-component`

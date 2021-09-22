@@ -39,7 +39,54 @@ Fique atento a nossas regras de contribuição, pois caso ignoradas sua solicita
 
 ___
 
-# Ao colaborar com criação de um novo componentes valide os critérios abaixo
+# Criando meu primeiro componente
+
+Começe clonando nosso repositório
+
+- `git clone https://github.com/PicPay/picpay-frontend.git`
+
+Crie uma branch a partir da DEVELOP com o seguinte padrão para novos componentes:
+
+- `git checkout -b feat/design-system/nome-do-componente`
+
+Instale a extensão `NX Console` no `VSCode`. Selecione a opção Generate no NX Console e escolha a opção stencil - component.
+
+<img src="stencil-component.png" />
+
+Escolha um nome para o componente utilizando da notação dash-case. Por padrão os componentes do DS possuem o seu nome na frente, <b>apollo</b>:
+
+<img src="generate.png" />
+
+O console do Nx disponibilizara o seguinte comando:
+
+- `nx generate @nxext/stencil:component --name=apollo-component --project=design-system --no-interactive`
+
+Após realizar o paso anterior será criada uma pasta com o componente dentro de src/components, seguindo a estrutura:
+
+- `libs/design-system/src/components/apollo-component`
+
+- Pra ficar mais fácil a leitura dos componentes temos tirado o prefixo apollo da pasta/arquivos, deixando somente no nome do componente e tag-html:
+
+<img src="example.png" />
+
+Crie os arquivos .stories.tsx e .docs.mdx do storybook na pasta do seu componente:
+
+<img src="doc-files.png" />
+
+Para visualizar o seu componente no storybook execute o comando:
+
+- `nx storybook design-system`
+
+Após finalizar o desenvolvimento do componente, é necessário fazer o build para que ele fique disponível para utilizar na sua aplicação. Portanto, execute o comando:
+
+- `nx build design-system`
+
+Depois de implementado, crie uma PR e solicite a aprovação do time do Design System Apollo.
+
+Pronto! Após a aprovação você já consegue utilizar o seu novo componente! :smile: 
+
+
+## Ao colaborar com criação de um novo componentes valide os critérios abaixo
 
 - Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript)
 - Testes unitários com no mínimo 70% de cobertura
@@ -48,7 +95,7 @@ ___
 - Validação da equipe de design do ds
 - Validação da equipe de front-end do ds
 
-Não se esqueça de rodar o lint após o desenvolvimento do novo componente. Tanto para estilos(stylelint) quanto para html e typescript(eslint).
+>Não se esqueça de rodar o lint após o desenvolvimento do novo componente. Tanto para estilos(stylelint) quanto para html e typescript(eslint).
 
 - `npm run lint:css`
 - `nx lint design-system`

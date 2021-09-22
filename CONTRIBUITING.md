@@ -18,16 +18,16 @@ Mantenha a mente aberta, existem muitas evoluções a serem feitas!
 
 Exemplos de contribuições úteis que significam menos trabalho para você:
 
-- Melhorar a documentação
-- Evolução de bugs  
-- Criação de tutoriais
-- Inclusão/correção de testes unitários
+- Melhorar a documentação;
+- Evolução de bugs; 
+- Criação de tutoriais;
+- Inclusão/correção de testes unitários;
 
 Exemplos de contribuições úteis e que demandam maior tempo/complexidade e passam por um processo de revisão crítico:
 
-- Criação de novos componentes
-- Implementação de novos funcionalidades  
-- Remoção de componentes/funcionalidades em uso
+- Criação de novos componentes;
+- Implementação de novos funcionalidades;  
+- Remoção de componentes/funcionalidades em uso;
 
 Se você vir uma lacuna, mas não tiver tempo, experiência ou apenas precisar de ajuda com o ds, não hesite em iniciar uma discussão em nosso canal no slack `#apollo-design-system` ou abrir um issue.
 
@@ -45,11 +45,11 @@ Siga os passos abaixo para realizar a criação de um novo componente dentro de 
 
 Começe clonando nosso repositório
 
-- `git clone https://github.com/PicPay/picpay-frontend.git`
+- `git clone https://github.com/PicPay/picpay-frontend.git`;
 
 Crie uma branch a partir da DEVELOP com o seguinte padrão para novos componentes:
 
-- `git checkout -b feat/design-system/nome-do-componente`
+- `git checkout -b feat/design-system/nome-do-componente`;
 
 Instale a extensão `NX Console` no `VSCode`. Selecione a opção Generate no NX Console e escolha a opção stencil - component.
 
@@ -61,11 +61,11 @@ Escolha um nome para o componente utilizando da notação dash-case. Por padrão
 
 O console do Nx disponibilizara o seguinte comando:
 
-- `nx generate @nxext/stencil:component --name=apollo-component --project=design-system --no-interactive`
+- `nx generate @nxext/stencil:component --name=apollo-component --project=design-system --no-interactive`;
 
 Após realizar o paso anterior será criada uma pasta com o componente dentro de src/components, seguindo a estrutura:
 
-- `libs/design-system/src/components/apollo-component`
+- `libs/design-system/src/components/apollo-component`;
 
 - Pra ficar mais fácil a leitura dos componentes temos tirado o prefixo apollo da pasta/arquivos, deixando somente no nome do componente e tag-html:
 
@@ -77,11 +77,11 @@ Crie os arquivos .stories.tsx e .docs.mdx do storybook na pasta do seu component
 
 Para visualizar o seu componente no storybook execute o comando:
 
-- `nx storybook design-system`
+- `nx storybook design-system`;
 
 Após finalizar o desenvolvimento do componente, é necessário fazer o build para que ele fique disponível para utilizar na sua aplicação. Portanto, execute o comando:
 
-- `nx build design-system`
+- `nx build design-system`;
 
 Depois de implementado, crie uma PR e solicite a aprovação do time do Design System Apollo.
  
@@ -111,19 +111,20 @@ ___
 
 Abaixo estão listados todos os processo necessários para que o componente seja consideradoja aqui estável e pronto:
 
-- Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript)
-- Estilização do light e dark mode
-- Testes unitários com no mínimo 70% de cobertura
-- Acessibilidade
-- Documentação completa no storybook, contemplando todos as variações do componente
-- Documentação do uso de componentes filhos
-- Validação da equipe de design do ds
-- Validação da equipe de front-end do ds
+- Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript);
+- Estilização do light e dark mode;
+- Testes unitários com no mínimo 70% de cobertura;
+- Acessibilidade;
+- Documentação completa no storybook, contemplando todos as variações do componente;
+- Documentação do uso de componentes filhos;
+- Validação da equipe de design do ds;
+- Validação da equipe de front-end do ds;
 
 >Não se esqueça de rodar o lint após o desenvolvimento do novo componente. Tanto para estilos(stylelint) quanto para html e typescript(eslint).
 
-- `npm run lint:css`
-- `nx lint design-system`
+- `npm run lint:css`;
+
+- `nx lint design-system`;
 
 ## Exemplo de documentação no storybook
 
@@ -135,9 +136,9 @@ ___
 
 A equipe de front-end do ds irá analisar seu PR em diversos aspectos, entre eles estão:
 
-- Organização das informações
-- Evidências visuais do componentes (prints/vídeos)
-- Pixel perfect (o componente esta identico ao figma?)
+- Organização das informações;
+- Evidências visuais do componentes (prints/vídeos);
+- Pixel perfect (o componente esta identico ao figma?);
 
 Após analisado o PR, retornaremos possíveis melhorias ou afins, caso tudo esteja de acordo com nossos padrões o PR será aceito e mergeado.
 
@@ -147,17 +148,17 @@ Veja [aqui]() um exemplo de pr para novos componentes.
 
 Para padronizar o repositório seguimos a convenção criada pelo Google que é usada por várias empresas e projetos pelo mundo e que atende bem a nossa necessidade. Exemplo:
 
-- `git checkout -b feat/design-system/modal-component`
+- `git checkout -b feat/design-system/modal-component`;
 
 Basicamente possuímos duas abordagens:
 
 Passando a informação do id da task/story/bug do jira(`tipo/escopo/jira-id/tarefa`):
 
-- `fix/design-system/DSNEW-185/modal-component`
+- `fix/design-system/DSNEW-185/modal-component`;
 
 Passando somente tipo/escopo/tarefa:
 
-- `fix/design-system/modal-component`
+- `fix/design-system/modal-component`;
 
 Veja [aqui](https://picpay.atlassian.net/wiki/spaces/FRONT/pages/453050629/Criando+uma+branch+e+realizando+commits) uma explicação mais detalhada.
 
@@ -168,8 +169,8 @@ Todas as alterações vão para o changelog e por conta disso, todas mensagens e
 
 Abaixo veja exemplos de como commitar em colaborações no ds. Veja [aqui](https://picpay.atlassian.net/wiki/spaces/FRONT/pages/453050629/Criando+uma+branch+e+realizando+commits) uma explicação mais detalhada.
 
-- `feat:(design-system): created modal component`
+- `feat:(design-system): created modal component`;
 
-- `test:(design-system): added unit tests for modal component`
+- `test:(design-system): added unit tests for modal component`;
 
-- `docs:(design-system): included new props description`
+- `docs:(design-system): included new props description`;

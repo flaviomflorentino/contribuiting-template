@@ -29,10 +29,12 @@ Exemplos de contribuições úteis e que demandam maior tempo/complexidade e pas
 - Implementação de novos funcionalidades  
 - Remoção de componentes/funcionalidades em uso
 
-Se você vir uma lacuna, mas não tiver tempo, experiência ou apenas precisar de ajuda com a biblioteca, não hesite em iniciar uma em nosso canal no slack `#apollo-design-system` ou abrir um issue.
+Se você vir uma lacuna, mas não tiver tempo, experiência ou apenas precisar de ajuda com o ds, não hesite em iniciar uma discussão em nosso canal no slack `#apollo-design-system` ou abrir um issue.
 
 ### O que não procuramos
 
-Fique atento a nossas regras de contribuição, pois caso ignoradas seu solicitação/issue/contribuição pode ser fechada.
+Fique atento a nossas regras de contribuição, pois caso ignoradas sua solicitação/issue/contribuição pode ser fechada.
 
 > Por favor, não use as issues para perguntas de suporte. Verifique se o canal `#frontenders` no `slack` pode ajudar com seu problema. Ou em casos mais críticos entre em contato com os desenvolvedores do ds.
+
+___

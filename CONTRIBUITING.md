@@ -82,7 +82,9 @@ Após finalizar o desenvolvimento do componente, é necessário fazer o build pa
 - `nx build design-system`
 
 Depois de implementado, crie uma PR e solicite a aprovação do time do Design System Apollo.
-
+ 
+  
+   
 Pronto! Após a aprovação você já consegue utilizar o seu novo componente!
 
 ___

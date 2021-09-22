@@ -8,7 +8,7 @@
 
 > Adoraríamos que você contribuísse com nosso ds! Leia este documento para ver como contribuir.
 
-### Por que eu deveria ler este guia? 
+### Por que você deveria ler este guia? 
 
 >É importante que você se atente as informações disponibilizadas nesse guia, ele tem o objetivo de garantir a qualidade de nossas entregas, desta forma sua contribuição entrega valor para a organização. 
 

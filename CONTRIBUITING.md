@@ -141,13 +141,13 @@ Veja [aqui]() um exemplo de pr para novos componentes.
 
 ## Nomenclatura de branchs
 
-Para padronizar o repositório seguimos a convenção criada pelo Google que é usada por várias empresas e projetos pelo mundo e que atende bem a nossa necessidade.
+Para padronizar o repositório seguimos a convenção criada pelo Google que é usada por várias empresas e projetos pelo mundo e que atende bem a nossa necessidade. Exemplo:
 
 - `git checkout -b feat/design-system/modal-component`
 
 Basicamente possuímos duas abordagens:
 
-Passando a informação do id da task/story/bug do jira:
+Passando a informação do id da task/story/bug do jira(`fix/design-system/jira-id/modal-component`):
 
 - `fix/design-system/DSNEW-185/modal-component`
 

@@ -141,13 +141,28 @@ Veja [aqui]() um exemplo de pr para novos componentes.
 
 ## Nomenclatura de branchs
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Para padronizar o repositório seguimos a convenção criada pelo Google que é usada por várias empresas e projetos pelo mundo e que atende bem a nossa necessidade.
 
 - `git checkout -b feat/design-system/modal-component`
 
+Basicamente possuímos duas abordagens:
+
+Passando a informação do id da task/story/bug do jira:
+
+- `fix/design-system/DSNEW-185/modal-component`
+
+Passando somente tipo/escopo/tarefa:
+
+- `fix/design-system/modal-component`
+
+Veja [aqui](https://picpay.atlassian.net/wiki/spaces/FRONT/pages/453050629/Criando+uma+branch+e+realizando+commits) uma explicação mais detalhada.
+
+
 ## Criando commits
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Todas as alterações vão para o changelog e por conta disso, todas mensagens enviadas nos commits são catalogadas. Se você declara uma mensagem que nada tem a ver comas alterações ou com o conteúdo do commit, o changelog ficará comprometido.
+
+Abaixo veja exemplos de como commitar em colaborações no ds. Veja [aqui](https://picpay.atlassian.net/wiki/spaces/FRONT/pages/453050629/Criando+uma+branch+e+realizando+commits) uma explicação mais detalhada.
 
 - `feat:(design-system): created modal component`
 

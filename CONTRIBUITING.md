@@ -12,7 +12,7 @@
 
 >É importante que você se atente as informações disponibilizadas nesse guia, ele tem o objetivo de garantir a qualidade de nossas entregas, desta forma sua contribuição entrega valor para a organização. 
 
-Contribuições que não contemplarem nossas regras de guideline estão sujeitas a fechamento/recusa.
+***Contribuições que não contemplarem nossas regras de guideline estão sujeitas a fechamento/recusa.***
 
 ### Por quais tipos de contribuições estamos em busca?
 

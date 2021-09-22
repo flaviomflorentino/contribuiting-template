@@ -187,13 +187,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim l
 
 :warning: ***Por favor, não use as issues para perguntas de suporte. Verifique se o canal #frontenders no slack pode ajudar com seu problema. Ou em casos mais críticos entre em contato com os desenvolvedores do ds.***
 
-## Exemplo de issue detalhada
+### Exemplo de issue detalhada
 
-## Descreva o bug
+### Descreva o bug
 O componente `<apollo-button>` não está se comportando da maneira esperada ao ser utilizado com a prop `outline`.
 <!-- Uma descrição clara e concisa de qual é o bug. -->
 
-## Passos para reproduzir o bug
+### Passos para reproduzir o bug
 Utilizar um componente`<apollo-button outline={true}>` inputando a prop type `outline`.
 <!-- Descreva abaixo passos que possam demonstrar o problema. -->
 
@@ -204,18 +204,18 @@ Existem algum recurso/url onde podemos testar o problema?
 Existem algum recurso/url onde podemos visualizar o problema acontecer? 
 -->
 
-## Capturas de tela
+### Capturas de tela
 Na captura de tela abaixo é possível visualizar que o componente manteve o mesmo estado após ser aplicada a propriedade outline.
 
 ![image](https://user-images.githubusercontent.com/82034505/116877993-13a74a80-abf5-11eb-8b71-894ffecafaa5.png)
 <!-- Adicione capturas de tela para ajudar a explicar seu problema e enriquecer a issue. -->
 
-## Trechos de código
+### Trechos de código
 ```html
   <apollo-button outline={true}></apollo-button>
 ```
 
-## Comportamento esperado
+### Comportamento esperado
 Se espera que o componente `<apollo-button>` tenha seu visual alterado para o padrão `outline`, seguindo a imagem abaixo.
 
 ![image](https://user-images.githubusercontent.com/82034505/116878026-1e61df80-abf5-11eb-8997-e45d2306ff27.png)
@@ -239,7 +239,7 @@ Se espera que o componente `<apollo-button>` tenha seu visual alterado para o pa
 
 -->
 
-## Checklist
+### Checklist
 
 <!-- Verifique as opções relacionadas a abertura da issue. -->
 <!-- Selecione apenas UMA das opções (✅ ❌) abaixo. -->

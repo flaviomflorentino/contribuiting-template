@@ -156,11 +156,11 @@ Resultado no arquivo README:
 
 ## Exemplo de documentação no storybook
 
-Abaixo veja um exemplo de como documentar seu componente de forma completa, disponibilizando controles para modificações das props(componente [heading](https://apollo.sandbox.limbo.work/?path=/docs/typography-heading--base)): 
+Abaixo veja um exemplo de como documentar seu componente de forma completa, disponibilizando controles para modificações das props(componente [heading](https://apollo.sandbox.limbo.work/?path=/docs/typography-heading--base){:target="_blank"}): 
 
 <img src="storybook.png" width="100%" />
 
-Abaixo veja um exemplo de como documentar casos de uso(componente [apollo-grid](https://apollo.sandbox.limbo.work/?path=/docs/layouts-grid--base)):
+Abaixo veja um exemplo de como documentar casos de uso(componente [apollo-grid](https://apollo.sandbox.limbo.work/?path=/docs/layouts-grid--base){:target="_blank"}):
 
 <img src="variacoes-storybook.png" width="100%" />
 

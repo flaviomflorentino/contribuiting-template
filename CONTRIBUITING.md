@@ -33,7 +33,7 @@
    * [Criando commits](#criando-commits)
 
 [Sugestão de melhorias e recursos](#sugestão-de-melhorias-e-recursos)
-  * [Como faço para enviar uma (boa) sugestão de aprimoramento?](#como-faço-para-enviar-uma-(boa)-sugestão-de-aprimoramento)
+  * [Como faço para enviar uma boa sugestão de aprimoramento?](#como-faço-para-enviar-uma-boa-sugestão-de-aprimoramento)
 
 [Reportando um issue](#reportando-um-issue)
   * [Exemplo de issue detalhada](#exemplo-de-issue-detalhada)
@@ -294,7 +294,7 @@ ___
 Esta seção o orienta no envio de uma sugestão de aprimoramento para o apollo design system, incluindo recursos completamente novos e pequenas melhorias na funcionalidade existente. 
 Seguir essas diretrizes ajuda o time do ds a entender sua sugestão 📝 e encontrar sugestões relacionadas 🔎.
 
-## Como faço para enviar uma (boa) sugestão de aprimoramento?
+## Como faço para enviar uma boa sugestão de aprimoramento?
 
 As sugestões de aprimoramento/recursos são rastreadas como `issues` do GitHub. Crie um issue em nosso [monorepo](https://github.com/PicPay/picpay-frontend/issues) e forneça as seguintes informações:
 

@@ -102,6 +102,12 @@ Abaixo segue exemplo de componente documentado de forma completa no figma(casos 
 
 <img src="figma.png" width="100%" />
 
+# Tokens
+
+> Nossos design tokens são pré-requisitos para a garantia de qualidade/padronização visual/minização de futuos impactos. Deste modo fica obrigatório o uso dos tokens para 
+`spacing`, `borderRadius`, `borderWidth`, `colors`, `fontSize`, `fontWeight`, `lineHeight`, `opacity` e `boxShadow`.
+
+Para consultar nossa documentação completa do uso de tokens, acesse este [link](https://apollo.sandbox.limbo.work/?path=/docs/design-tokens-tema--page).
 ___
 
 # Vamos falar de acessibilidade?

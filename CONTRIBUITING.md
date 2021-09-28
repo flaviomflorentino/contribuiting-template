@@ -265,7 +265,7 @@ Seguir essas diretrizes ajuda o time do ds a entender sua sugestão 📝 e encon
 
 ## Como faço para enviar uma (boa) sugestão de aprimoramento?
 
-As sugestões de aprimoramento são rastreadas como `issues` do GitHub. Crie um problema nesse repositório e forneça as seguintes informações:
+As sugestões de aprimoramento/recursos são rastreadas como `issues` do GitHub. Crie um issue em nosso [monorepo](https://github.com/PicPay/picpay-frontend/issues) e forneça as seguintes informações:
 
 - Use um título claro e descritivo para a solicitação;
 - Forneça uma descrição, passo a passo do aprimoramento sugerido com o máximo de detalhes possível;

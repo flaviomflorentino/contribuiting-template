@@ -131,7 +131,6 @@ Veja no exemplo abaixo como utilizamos nossos tokens no desenvolvimento do compo
 ```
 
 Para consultar nossa documentação completa do uso de tokens, acesse este [link](https://apollo.sandbox.limbo.work/?path=/docs/design-tokens-tema--page).
-
 ___
 
 # Vamos falar de acessibilidade?
@@ -154,18 +153,21 @@ ___
 
 # Críterios de aceite para criação de novos componentes
 
-Abaixo estão listados todos os processo necessários para que o componente seja consideradoja aqui estável e pronto:
+Abaixo vamos recaptular os pontos que serão avalidados no code review/revisão geral do componente:
 
-- Toda a estilização do componente deve ser feita através de nossos tokens(css e javascript);
+- A estilização utilizando nossos tokens deve ser realizada sempre que possível(css e javascript);
 - Estilização do light e dark mode;
 - Testes unitários com no mínimo 70% de cobertura;
 - Acessibilidade;
 - Documentação completa no storybook, contemplando todos as variações do componente;
 - Documentação do uso de componentes filhos;
-- Validação da equipe de design do ds;
-- Validação da equipe de front-end do ds;
+- Validação/revisão com a equipe de front-end do ds;
+- Validação/revisão com a equipe de design do ds;
 
->Não se esqueça de rodar o lint após o desenvolvimento do novo componente. Tanto para estilos(stylelint) quanto para html e typescript(eslint).
+
+>Não se esqueça de sempre se atendar as regras de lint, sejam elas `css(stylelint)` ou `javascript/html(eslint)`.
+
+Para realizar a validação do lint, rode os seguintes comandos:
 
 - `npm run lint:css`;
 

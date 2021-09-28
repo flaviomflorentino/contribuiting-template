@@ -96,13 +96,15 @@ ___
 
 Ao iniciar o processo de colaboração com a criação de um novo componente, se atente aos seguintes detalhes:
 
+## Figma
+
 - O componente possui documentação visual e casos de uso no figma? Caso negativo trazer a discussão para nós do squad que discutiremos com o time de design e retornaremos um plano de ação para os próximos passos com o componente.  
 
 Abaixo segue exemplo de componente documentado de forma completa no figma(casos de uso + ligh/dark mode):
 
 <img src="figma.png" width="100%" />
 
-# Tokens
+## Tokens
 
 > Nossos design tokens são pré-requisitos para a garantia de qualidade/padronização visual/minização de futuos impactos. Deste modo fica obrigatório o uso dos tokens para 
 `spacing`, `borderRadius`, `borderWidth`, `colors`, `fontSize`, `fontWeight`, `lineHeight`, `opacity` e `boxShadow`.

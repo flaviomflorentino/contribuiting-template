@@ -20,6 +20,13 @@
 
 [O que devemos considerar antes de criar um novo componente?](#o-que-devemos-considerar-antes-de-criar-um-novo-componente)
   * [Figma](#figma)
+  * [Tokens](#tokens)
+  * [Documentação](#documentação)
+  * [Exemplo de documentação no storybook](#exemplo-de-documentação-no-storybook)
+
+ [Vamos falar de acessibilidade?](#vamos-falar-de-acessibilidade) 
+
+ [Críterios de aceite para criação de novos componentes](#críterios-de-aceite-para-criação-de-novos-componentes)
 
 
 ### Por que você deveria ler este guia? 

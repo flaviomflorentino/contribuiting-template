@@ -28,6 +28,8 @@
 
  [Críterios de aceite para criação de novos componentes](#críterios-de-aceite-para-criação-de-novos-componentes)
 
+ [Processo de revisão de código/Pull requests](#processo-de-revisão-de-código/Pull-requests)
+
 
 ### Por que você deveria ler este guia? 
 
@@ -232,7 +234,7 @@ Para realizar a validação do lint, rode os seguintes comandos:
 Para maiores detalhes referentes as regras de lint, acesse [Padrão de Código](https://picpay.atlassian.net/wiki/spaces/FRONT/pages/452952415/Boas+pr+ticas+e+Padr+es+de+c+digo).
 ___
 
-# Processo de revisão de código / Pull requests 
+# Processo de revisão de código/Pull requests 
 
 A equipe de front-end do ds irá analisar seu PR em diversos aspectos, entre eles estão:
 

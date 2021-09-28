@@ -9,9 +9,12 @@
 > Adoraríamos que você contribuísse com nosso ds! Leia este documento para ver como contribuir.
 
 # Tabela de conteúdo
-[Por que você deveria ler este guia?]()
-    * [Por quais tipos de contribuições estamos em busca?]()
-    * [O que não procuramos](#o-que-não-procuramos)
+
+
+
+[Por que você deveria ler este guia?](#por-que-você-deveria-ler-este-guia?)
+  * [Por quais tipos de contribuições estamos em busca?](#por-quais-tipos-de-contribuições-estamos-em-busca?)
+  * [O que não procuramos](#o-que-não-procuramos)
 
 
 ### Por que você deveria ler este guia? 

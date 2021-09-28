@@ -168,7 +168,7 @@ ___
 
 # Vamos falar de acessibilidade?
 
-Acessibilidade é um ponto crucial do desenvolvimento de um componente, logo é aconcelhavél iniciarmos o desenvolvimento levando em consideração
+Acessibilidade é um ponto crucial no desenvolvimento de um componente, logo é aconselhável iniciarmos o desenvolvimento levando em consideração
 as interações do usuário via leitores de tela e a semântica de nosso codigo.
 
 Cada componente possui pontos específicos a serem explorados, antes de iniciar o desenvolvimento faça um pareamento junto ao time de `front-end` ou `design` do ds. 
@@ -177,9 +177,9 @@ Cada componente ira contemplar regras especifícas de acessibilidade.
 Ao criar um componente composto é necessário se atentar bastate a semântica do código, caso não seja possível utilizar elementos nativos para criar o componente
 faça uso das propriedades de `aria`/`roles` para garantir acessibilidade.
 
-Abaixo vemos um exemplo, o componente avatar consiste em um elemento HTML com uma propriedade background-image contendo da imagem do avatar.
-Neste caso precisamos aplicar no elemento HTML a propriedade `role` com o valor `img`, e também adicionar `aria-label` com a descrição da imagem. 
-Deste modo informamos para os leitores de tela que esse elemento HTML é uma `imagem` e possui determinada `descrição`.
+Abaixo vemos um exemplo, o componente avatar consiste em um elemento HTML com uma propriedade background-image contendo a url da imagem do avatar.
+Neste caso precisamos aplicar nesse elemento HTML a propriedade `role` com o valor `img`, e também adicionar `aria-label` com a descrição da imagem. 
+Deste modo informamos para os leitores de tela que esse elemento HTML é uma `imagem` e possui determinada `descrição`:
 
 ```tsx
 <div role="img" aria-label={this.alt} style={{ backgroundImage: `url(${this.src})`}}></div>

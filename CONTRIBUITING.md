@@ -258,6 +258,12 @@ Abaixo veja exemplos de como commitar em colaborações no ds. Veja [aqui](https
 
 ___
 
+# Sugestão de melhorias / recursos
+
+Esta seção o orienta no envio de uma sugestão de aprimoramento para o apollo design system, incluindo recursos completamente novos e pequenas melhorias na funcionalidade existente. 
+Seguir essas diretrizes ajuda os time de front-end a entender sua sugestão 📝 e encontrar sugestões relacionadas 🔎.
+___
+
 # Reportando um problema/bug
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

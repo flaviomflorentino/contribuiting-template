@@ -110,6 +110,28 @@ Abaixo segue exemplo de componente documentado de forma completa no figma(casos 
 `spacing`, `borderRadius`, `borderWidth`, `colors`, `fontSize`, `fontWeight`, `lineHeight`, `opacity` e `boxShadow`.
 
 Para consultar nossa documentação completa do uso de tokens, acesse este [link](https://apollo.sandbox.limbo.work/?path=/docs/design-tokens-tema--page).
+
+Veja no exemplo abaixo como utilizamos nossos tokens no desenvolvimento do componente de botão, utilizando `SCSS`:
+
+```css
+.mdc-button {
+        @include button.disabled-ink-color(theme('colors.grayscale.200'));
+        @include button.shape-radius(12px);
+        font-weight: theme('fontWeight.bold');
+
+        &:disabled {
+            @include button.disabled-outline-color(theme('colors.grayscale.200'));
+            @include button.disabled-container-fill-color(theme('colors.grayscale.200'));
+            opacity: theme('opacity.light');
+
+            .apollo-button__label {
+                color: theme('colors.grayscale.900');
+            }
+        }
+
+    }
+```
+
 ___
 
 # Vamos falar de acessibilidade?

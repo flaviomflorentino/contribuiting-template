@@ -156,9 +156,11 @@ Resultado no arquivo README:
 
 ## Exemplo de documentação no storybook
 
+Abaixo veja um exemplo de como documentar seu componente de forma completa, disponibilizando controles para modificação das props: 
+
 <img src="storybook.png" width="100%" />
 
-Abaixo veja exemplos de como documentar casos de uso:
+Abaixo veja um exemplo de como documentar casos de uso:
 
 <img src="variacoes-storybook.png" width="100%" />
 

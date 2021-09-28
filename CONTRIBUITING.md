@@ -109,9 +109,7 @@ Abaixo segue exemplo de componente documentado de forma completa no figma(casos 
 > Nossos design tokens são pré-requisitos para a garantia de qualidade/padronização visual/minização de futuos impactos. Deste modo fica obrigatório o uso dos tokens para 
 `spacing`, `borderRadius`, `borderWidth`, `colors`, `fontSize`, `fontWeight`, `lineHeight`, `opacity` e `boxShadow`.
 
-Para consultar nossa documentação completa do uso de tokens, acesse este [link](https://apollo.sandbox.limbo.work/?path=/docs/design-tokens-tema--page).
-
-Veja no exemplo abaixo como utilizamos nossos tokens no desenvolvimento do componente de botão, utilizando `SCSS`:
+Veja no exemplo abaixo como utilizamos nossos tokens no desenvolvimento do componente de botão, utilizando `SCSS`: 
 
 ```css
 .mdc-button {
@@ -132,6 +130,8 @@ Veja no exemplo abaixo como utilizamos nossos tokens no desenvolvimento do compo
     }
 ```
 
+Para consultar nossa documentação completa do uso de tokens, acesse este [link](https://apollo.sandbox.limbo.work/?path=/docs/design-tokens-tema--page).
+
 ___
 
 # Vamos falar de acessibilidade?
@@ -140,6 +140,16 @@ Acessibilidade é um ponto muito importante do desenvolvimento, então é bom j�
 
 Cada componente possui pontos específicos a serem explorados, antes de iniciar o desenvolvimento faça um pareamento junto ao time de `front-end` ou `design` do ds.
 
+Ao criar um componente composto é necessário se atentar bastate a semântica do código, caso não seja possível utilizar elementos nativos para criar o componente
+faça uso das propriedades de `aria`/`roles` para garantir acessibilidade.
+
+Abaixo vemos um exemplo, o componente avatar consiste em um elemento HTML com uma propriedade background-image contendo da imagem do avatar.
+Neste caso precisamos aplicar no elemento HTML a propriedade `role` com o valor `img`, e também adicionar `aria-label` com a descrição da imagem. Deste modo informamos para os leitores de tela
+que esse elemento HTML é uma `imagem` e possui determinada `descrição`.
+
+```tsx
+<div role="img" aria-label={this.alt} style={{ backgroundImage: `url(${this.src})`}}></div>
+```
 ___
 
 # Críterios de aceite para criação de novos componentes

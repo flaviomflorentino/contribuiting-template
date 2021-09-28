@@ -261,7 +261,18 @@ ___
 # Sugestão de melhorias / recursos
 
 Esta seção o orienta no envio de uma sugestão de aprimoramento para o apollo design system, incluindo recursos completamente novos e pequenas melhorias na funcionalidade existente. 
-Seguir essas diretrizes ajuda os time de front-end a entender sua sugestão 📝 e encontrar sugestões relacionadas 🔎.
+Seguir essas diretrizes ajuda o time do ds a entender sua sugestão 📝 e encontrar sugestões relacionadas 🔎.
+
+## Como faço para enviar uma (boa) sugestão de aprimoramento?
+
+As sugestões de aprimoramento são rastreadas como `issues` do GitHub. Crie um problema nesse repositório e forneça as seguintes informações:
+
+- Use um título claro e descritivo para a solicitação;
+- Forneça uma descrição, passo a passo do aprimoramento sugerido com o máximo de detalhes possível;
+- Forneça exemplos específicos para demonstrar as etapas. Inclua blocos de código se possível;
+- Forneça capturas de tela ou vídeos que ajudem a demonstrar a solicitação;
+- Explique por que esse aprimoramento seria útil para a maioria dos usuários;
+- Se possível forneça exemplos funcionais do mercado como exemplo da solicitação;
 ___
 
 # Reportando um problema/bug

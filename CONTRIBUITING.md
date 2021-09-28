@@ -26,7 +26,7 @@
 
  [Vamos falar de acessibilidade?](#vamos-falar-de-acessibilidade) 
 
- [Críterios de aceite para criação de novos componentes](#críterios-de-aceite-para-criação-de-novos-componentes)
+ [critérios de aceite para criação de novos componentes](#critérios-de-aceite-para-criação-de-novos-componentes)
 
  [Processo de revisão de código e pull requests](#processo-de-revisão-de-código-e-pull-requests)
    * [Nomenclatura de branchs](#nomenclatura-de-branchs)
@@ -217,7 +217,7 @@ Deste modo informamos para os leitores de tela que esse elemento HTML é uma `im
 ```
 ___
 
-# Críterios de aceite para criação de novos componentes
+# Critérios de aceite para criação de novos componentes
 
 Abaixo vamos recaptular os pontos que serão avalidados no code review/revisão geral do componente:
 

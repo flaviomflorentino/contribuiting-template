@@ -12,7 +12,7 @@
 
 >É importante que você se atente as informações disponibilizadas nesse guia, ele tem o objetivo de garantir a qualidade de nossas entregas, desta forma sua contribuição entrega valor para a organização. 
 
-:warning:  ***Contribuições que não contemplarem nossas regras de guideline estão sujeitas a fechamento/recusa.***
+:warning:  ***Contribuições que não contemplarem nossas regras de guideline estão sujeitas a recusa/barramento até contemplar o guideline.*** :sad:
 
 ### Por quais tipos de contribuições estamos em busca?
 
@@ -156,11 +156,11 @@ Resultado no arquivo README:
 
 ## Exemplo de documentação no storybook
 
-Abaixo veja um exemplo de como documentar seu componente de forma completa, disponibilizando controles para modificações das props(componente [heading](https://apollo.sandbox.limbo.work/?path=/docs/typography-heading--base?target=_blank)): 
+Abaixo veja um exemplo de como documentar seu componente de forma completa, disponibilizando controles para modificações das props(componente [heading](https://apollo.sandbox.limbo.work/?path=/docs/typography-heading--base)): 
 
 <img src="storybook.png" width="100%" />
 
-Abaixo veja um exemplo de como documentar casos de uso(componente [apollo-grid](https://apollo.sandbox.limbo.work/?path=/docs/layouts-grid--base?target=_blank)):
+Abaixo veja um exemplo de como documentar casos de uso(componente [apollo-grid](https://apollo.sandbox.limbo.work/?path=/docs/layouts-grid--base)):
 
 <img src="variacoes-storybook.png" width="100%" />
 
@@ -198,7 +198,7 @@ Abaixo vamos recaptular os pontos que serão avalidados no code review/revisão 
 - Validação/revisão com a equipe de design do ds;
 
 
->Não se esqueça de sempre se atentar as regras de lint, sejam elas `css(stylelint)` ou `javascript/html(eslint)`.
+:warning: ***Não se esqueça de sempre se atentar as regras de lint, sejam elas `css(stylelint)` ou `javascript/html(eslint)`.***
 
 Para realizar a validação do lint, rode os seguintes comandos:
 

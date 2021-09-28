@@ -35,7 +35,7 @@
 [Sugestão de melhorias e recursos](#sugestão-de-melhorias-e-recursos)
   * [Como faço para enviar uma (boa) sugestão de aprimoramento?](#como-faço-para-enviar-uma-(boa)-sugestão-de-aprimoramento)
 
-[Reportando um bug](#reportando-um-bug)
+[Reportando um issue](#reportando-um-issue)
   * [Exemplo de issue detalhada](#exemplo-de-issue-detalhada)
  ___
 
@@ -306,9 +306,9 @@ As sugestões de aprimoramento/recursos são rastreadas como `issues` do GitHub.
 - Se possível forneça exemplos funcionais do mercado como exemplo da solicitação;
 ___
 
-# Reportando um bug
+# Reportando um issue
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Os bugs relacionados ao ds são rastreados como `issues` do GitHub. Crie um issue em nosso [monorepo](https://github.com/PicPay/picpay-frontend/issues) seguindo o padrão abaixo:
 
 :warning: ***Por favor, não use as issues para perguntas de suporte. Verifique se o canal #frontenders no slack pode ajudar com seu problema. Ou em casos mais críticos entre em contato com os desenvolvedores do ds.***
 

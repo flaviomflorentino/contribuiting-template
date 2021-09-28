@@ -28,8 +28,16 @@
 
  [Críterios de aceite para criação de novos componentes](#críterios-de-aceite-para-criação-de-novos-componentes)
 
- [Processo de revisão de código/Pull requests](#processo-de-revisão-de-código/Pull-requests)
+ [Processo de revisão de código e pull requests](#processo-de-revisão-de-código-e-pull-requests)
+   * [Nomenclatura de branchs](#nomenclatura-de-branchs)
+   * [Criando commits](#criando-commits)
 
+[Sugestão de melhorias e recursos](#sugestão-de-melhorias-e-recursos)
+  * [Como faço para enviar uma (boa) sugestão de aprimoramento?](#como-faço-para-enviar-uma-(boa)-sugestão-de-aprimoramento)
+
+[Reportando um bug](#reportando-um-bug)
+  * [Exemplo de issue detalhada](#exemplo-de-issue-detalhada)
+ ___
 
 ### Por que você deveria ler este guia? 
 
@@ -234,7 +242,7 @@ Para realizar a validação do lint, rode os seguintes comandos:
 Para maiores detalhes referentes as regras de lint, acesse [Padrão de Código](https://picpay.atlassian.net/wiki/spaces/FRONT/pages/452952415/Boas+pr+ticas+e+Padr+es+de+c+digo).
 ___
 
-# Processo de revisão de código/Pull requests 
+# Processo de revisão de código e pull requests 
 
 A equipe de front-end do ds irá analisar seu PR em diversos aspectos, entre eles estão:
 
@@ -281,7 +289,7 @@ Abaixo veja exemplos de como commitar em colaborações no ds. Veja [aqui](https
 
 ___
 
-# Sugestão de melhorias / recursos
+# Sugestão de melhorias e recursos
 
 Esta seção o orienta no envio de uma sugestão de aprimoramento para o apollo design system, incluindo recursos completamente novos e pequenas melhorias na funcionalidade existente. 
 Seguir essas diretrizes ajuda o time do ds a entender sua sugestão 📝 e encontrar sugestões relacionadas 🔎.
@@ -298,7 +306,7 @@ As sugestões de aprimoramento/recursos são rastreadas como `issues` do GitHub.
 - Se possível forneça exemplos funcionais do mercado como exemplo da solicitação;
 ___
 
-# Reportando um problema/bug
+# Reportando um bug
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut dignissim ligula. Nulla ornare felis risus, quis tristique elit ullamcorper ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 

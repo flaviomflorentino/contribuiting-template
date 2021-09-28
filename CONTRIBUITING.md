@@ -30,8 +30,9 @@ Exemplos de contribuições úteis e que demandam maior tempo/complexidade e pas
 - Criação de novos componentes;
 - Implementação de novas funcionalidades;  
 - Remoção de componentes/funcionalidades em uso;
+- Alterações de arquitetura;
 
-Se você vir uma lacuna, mas não tiver tempo, experiência ou apenas precisar de ajuda com o ds, não hesite em iniciar uma discussão em nosso canal no slack `#apollo-design-system` ou abrir um issue.
+:bulb:  ***Se você vir uma lacuna, mas não tiver tempo, experiência ou apenas precisar de ajuda com o ds, não hesite em iniciar uma discussão em nosso canal no slack `#apollo-design-system` ou abrir um issue.***
 
 ### O que não procuramos
 

@@ -11,7 +11,7 @@
 # Tabela de conteúdo
 [Por que você deveria ler este guia?]()
     * [Por quais tipos de contribuições estamos em busca?]()
-    * [O que não procuramos](#tokens)
+    * [O que não procuramos](#o-que-não-procuramos)
 
 
 ### Por que você deveria ler este guia? 

@@ -206,17 +206,19 @@ Para realizar a validação do lint, rode os seguintes comandos:
 
 - `nx lint design-system`;
 
+Para maiores detalhes referentes as regras de lint, acesse [Padrão de Código](https://picpay.atlassian.net/wiki/spaces/FRONT/pages/452952415/Boas+pr+ticas+e+Padr+es+de+c+digo).
 ___
 
 # Processo de revisão de código / Pull requests 
 
 A equipe de front-end do ds irá analisar seu PR em diversos aspectos, entre eles estão:
 
-- Organização das informações;
+- Código limpo / organização do código;
+- Organização das informações dentro do PR;
 - Evidências visuais do componentes (prints/vídeos);
 - Pixel perfect (o componente esta identico ao figma?);
 
-Após analisado o PR, retornaremos possíveis melhorias ou afins, caso tudo esteja de acordo com nossos padrões o PR será aceito e mergeado.
+Após analisado o PR, retornaremos possíveis melhorias/outros, caso tudo esteja de acordo com nossos padrões o PR será aceito e mergeado.
 
 Veja [aqui]() um exemplo de pr para novos componentes.
 

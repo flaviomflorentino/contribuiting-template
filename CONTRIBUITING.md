@@ -131,6 +131,32 @@ Veja no exemplo abaixo como utilizamos nossos tokens no desenvolvimento do compo
 ```
 
 Para consultar nossa documentação completa do uso de tokens, acesse este [link](https://apollo.sandbox.limbo.work/?path=/docs/design-tokens-tema--page).
+
+## Documentação 
+
+Todos os componentes devem ser documentados no storybook seguindo nosso padrão, documentando todas as props/methods/watchers e 
+contemplando todos os casos de uso do componente.
+
+***Não se esqueça de documentar todas as `props/methods/watchers` dentro do próprio componente, desta forma o README será atualizado de forma automática como no exemplo abaixo:***
+
+```tsx
+/**
+    * Borda do avatar
+    * @prop reflect: O CSS usa a referência do atributo no elemento para aplicar algumas regras
+*/
+@Prop({
+    reflect: true,
+})
+border: 'none' | 'light' | 'medium' | 'strong' = 'light';
+```
+
+Resultado no arquivo README:
+
+<img src="ex-readme.png" width="100%" />
+
+## Exemplo de documentação no storybook
+
+<img src="storybook.png" width="100%" />
 ___
 
 # Vamos falar de acessibilidade?
@@ -165,17 +191,13 @@ Abaixo vamos recaptular os pontos que serão avalidados no code review/revisão 
 - Validação/revisão com a equipe de design do ds;
 
 
->Não se esqueça de sempre se atendar as regras de lint, sejam elas `css(stylelint)` ou `javascript/html(eslint)`.
+>Não se esqueça de sempre se atentar as regras de lint, sejam elas `css(stylelint)` ou `javascript/html(eslint)`.
 
 Para realizar a validação do lint, rode os seguintes comandos:
 
 - `npm run lint:css`;
 
 - `nx lint design-system`;
-
-## Exemplo de documentação no storybook
-
-<img src="storybook.png" width="100%" />
 
 ___
 

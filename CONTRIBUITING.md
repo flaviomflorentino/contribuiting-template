@@ -12,9 +12,14 @@
 
 
 
-[Por que você deveria ler este guia?](#por-que-você-deveria-ler-este-guia?)
-  * [Por quais tipos de contribuições estamos em busca?](#por-quais-tipos-de-contribuições-estamos-em-busca?)
+[Por que você deveria ler este guia?](#por-que-você-deveria-ler-este-guia)
+  * [Por quais tipos de contribuições estamos em busca?](#por-quais-tipos-de-contribuições-estamos-em-busca)
   * [O que não procuramos](#o-que-não-procuramos)
+
+[Criando meu primeiro componente](#criando-meu-primeiro-componente)
+
+[O que devemos considerar antes de criar um novo componente?](#o-que-devemos-considerar-antes-de-criar-um-novo-componente)
+  * [Figma](#figma)
 
 
 ### Por que você deveria ler este guia? 

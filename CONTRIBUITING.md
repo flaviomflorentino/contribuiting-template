@@ -137,7 +137,7 @@ Para consultar nossa documentação completa do uso de tokens, acesse este [link
 Todos os componentes devem ser documentados no storybook seguindo nosso padrão, documentando todas as props/methods/watchers e 
 contemplando todos os casos de uso do componente.
 
-***Não se esqueça de documentar todas as `props/methods/watchers` dentro do próprio componente, desta forma o README será atualizado de forma automática como no exemplo abaixo:***
+:warning: ***Não se esqueça de documentar todas as `props/methods/watchers` dentro do próprio componente, desta forma o README será atualizado de forma automática como no exemplo abaixo:***
 
 ```tsx
 /**
@@ -157,6 +157,11 @@ Resultado no arquivo README:
 ## Exemplo de documentação no storybook
 
 <img src="storybook.png" width="100%" />
+
+Abaixo veja exemplos de como documentar casos de uso:
+
+<img src="variacoes-storybook.png" width="100%" />
+
 ___
 
 # Vamos falar de acessibilidade?
